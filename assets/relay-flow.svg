@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" fill="none">
+  <defs>
+    <radialGradient id="rGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="rSoftGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="700" height="260" fill="#090B10"/>
+
+  <!-- Grid -->
+  <pattern id="rGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.3" opacity="0.3"/>
+  </pattern>
+  <rect width="700" height="260" fill="url(#rGrid)"/>
+
+  <!-- Connection lines -->
+  <!-- Salesforce to Gateway -->
+  <line x1="110" y1="60" x2="270" y2="60" stroke="#263244" stroke-width="1.5"/>
+  <line x1="110" y1="60" x2="270" y2="60" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="4,8" opacity="0.4">
+    <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Gateway to Agent -->
+  <line x1="340" y1="75" x2="440" y2="120" stroke="#263244" stroke-width="1.5"/>
+  <line x1="340" y1="75" x2="440" y2="120" stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="4,8" opacity="0.4">
+    <animate attributeName="stroke-dashoffset" from="12" to="0" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Agent to Tools -->
+  <line x1="490" y1="140" x2="560" y2="80" stroke="#263244" stroke-width="1"/>
+  <line x1="490" y1="140" x2="570" y2="140" stroke="#263244" stroke-width="1"/>
+  <line x1="490" y1="140" x2="560" y2="200" stroke="#263244" stroke-width="1"/>
+
+  <line x1="490" y1="140" x2="560" y2="80" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3,7" opacity="0.3">
+    <animate attributeName="stroke-dashoffset" from="10" to="0" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+  <line x1="490" y1="140" x2="570" y2="140" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3,7" opacity="0.3">
+    <animate attributeName="stroke-dashoffset" from="10" to="0" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <line x1="490" y1="140" x2="560" y2="200" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3,7" opacity="0.3">
+    <animate attributeName="stroke-dashoffset" from="10" to="0" dur="2.8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Moving particles -->
+  <circle r="3" fill="#38BDF8" filter="url(#rSoftGlow)" opacity="0.9">
+    <animateMotion dur="2s" repeatCount="indefinite" path="M110,60 L270,60"/>
+  </circle>
+  <circle r="2.5" fill="#8B5CF6" filter="url(#rSoftGlow)" opacity="0.8">
+    <animateMotion dur="2.5s" repeatCount="indefinite" path="M340,75 L440,120"/>
+  </circle>
+  <circle r="2" fill="#38BDF8" filter="url(#rSoftGlow)" opacity="0.7">
+    <animateMotion dur="2.5s" repeatCount="indefinite" path="M490,140 L560,80"/>
+  </circle>
+  <circle r="2" fill="#38BDF8" filter="url(#rSoftGlow)" opacity="0.7">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M490,140 L570,140"/>
+  </circle>
+  <circle r="2" fill="#8B5CF6" filter="url(#rSoftGlow)" opacity="0.7">
+    <animateMotion dur="2.8s" repeatCount="indefinite" path="M490,140 L560,200"/>
+  </circle>
+
+  <!-- Glow at agent node -->
+  <circle cx="465" cy="130" r="30" fill="url(#rGlow)"/>
+
+  <!-- Nodes -->
+  <!-- Salesforce -->
+  <rect x="30" y="42" width="100" height="36" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-width="1"/>
+  <text x="80" y="55" font-family="monospace" font-size="7" fill="#94A3B8" text-anchor="middle">SALESFORCE</text>
+  <text x="80" y="68" font-family="monospace" font-size="7" fill="#94A3B8" text-anchor="middle">CRM</text>
+  <circle cx="38" cy="50" r="3" fill="#38BDF8" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Integration Gateway -->
+  <rect x="260" y="42" width="110" height="36" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-width="1"/>
+  <text x="315" y="55" font-family="monospace" font-size="7" fill="#38BDF8" text-anchor="middle">INTEGRATION</text>
+  <text x="315" y="68" font-family="monospace" font-size="7" fill="#38BDF8" text-anchor="middle">GATEWAY</text>
+
+  <!-- AI Agent -->
+  <rect x="420" y="110" width="90" height="40" rx="4" fill="#0F172A" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="465" y="128" font-family="monospace" font-size="8" fill="#8B5CF6" text-anchor="middle" font-weight="600">AI AGENT</text>
+  <text x="465" y="142" font-family="monospace" font-size="6" fill="#94A3B8" text-anchor="middle">orchestrator</text>
+
+  <!-- Tool nodes -->
+  <rect x="540" y="62" width="100" height="30" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="590" y="82" font-family="monospace" font-size="7" fill="#94A3B8" text-anchor="middle">CUSTOMER API</text>
+  <circle cx="548" cy="70" r="2.5" fill="#38BDF8" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="540" y="125" width="100" height="30" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="590" y="145" font-family="monospace" font-size="7" fill="#94A3B8" text-anchor="middle">ORDER API</text>
+  <circle cx="548" cy="133" r="2.5" fill="#38BDF8" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <rect x="540" y="188" width="100" height="30" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <text x="590" y="208" font-family="monospace" font-size="7" fill="#94A3B8" text-anchor="middle">CASE API</text>
+  <circle cx="548" cy="196" r="2.5" fill="#8B5CF6" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Labels -->
+  <text x="190" y="52" font-family="monospace" font-size="6" fill="#475569" text-anchor="middle">oauth</text>
+  <text x="385" y="100" font-family="monospace" font-size="6" fill="#475569" text-anchor="middle">tool select</text>
+</svg>

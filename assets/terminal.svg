@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" width="400" height="180">
+  <defs>
+    <style>
+      @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+      .blink { animation: blink 1s step-end infinite; }
+    </style>
+    <mask id="fade">
+      <rect x="0" y="0" width="400" height="180" fill="white"/>
+      <rect x="0" y="0" width="400" height="180" fill="black">
+        <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="7s" fill="freeze"/>
+      </rect>
+    </mask>
+  </defs>
+
+  <g>
+    <animate attributeName="opacity" from="1" to="0" dur="0.3s" begin="7s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0s" fill="freeze"/>
+
+    <!-- Background -->
+    <rect x="0" y="0" width="400" height="180" rx="8" fill="#090B10"/>
+    <rect x="0.5" y="0.5" width="399" height="179" rx="8" fill="none" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Header bar -->
+    <rect x="0" y="0" width="400" height="28" rx="8" fill="#1E293B"/>
+    <rect x="0" y="14" width="400" height="14" fill="#1E293B"/>
+    <circle cx="16" cy="14" r="4.5" fill="#1E293B" stroke="#475569" stroke-width="0.5"/>
+    <circle cx="32" cy="14" r="4.5" fill="#475569" stroke="#475569" stroke-width="0.5"/>
+    <circle cx="48" cy="14" r="4.5" fill="#475569" stroke="#475569" stroke-width="0.5"/>
+
+    <!-- Content area -->
+    <g font-family="ui-monospace, 'Cascadia Code', 'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="13" fill="#94A3B8">
+      <text x="20" y="52" fill="#38BDF8">
+        $ booting atharva.system
+        <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0s" fill="freeze"/>
+      </text>
+
+      <text x="20" y="72">
+        loading backend_modules...
+        <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.8s" fill="freeze"/>
+      </text>
+
+      <text x="20" y="92">
+        initializing event_bus...
+        <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.6s" fill="freeze"/>
+      </text>
+
+      <text x="20" y="112">
+        connecting ai_agents...
+        <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.4s" fill="freeze"/>
+      </text>
+
+      <text x="20" y="132">
+        checking reliability...
+        <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.2s" fill="freeze"/>
+      </text>
+
+      <text x="20" y="152" fill="#22C55E">
+        ✓ system.ready
+        <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.0s" fill="freeze"/>
+      </text>
+
+      <!-- Blinking cursor -->
+      <text x="232" y="152" fill="#38BDF8" class="blink">_</text>
+    </g>
+  </g>
+</svg>
