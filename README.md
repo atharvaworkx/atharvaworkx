@@ -1,83 +1,128 @@
-# Hi, I'm Atharva
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&pause=1000&color=F8FAFC&center=true&vCenter=true&width=820&lines=Building+clean%2C+creative%2C+high-impact+software;Turning+ideas+into+polished+products;Designing+for+clarity%2C+speed%2C+and+delight" alt="Typing animation" />
-</p>
+<sub>ATHARVA WARANKAR / SOFTWARE ENGINEER / 01—SYSTEMS WORKBENCH</sub>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Developer-AtharvaWorkX-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Developer badge" />
-  <img src="https://img.shields.io/badge/Focus-Product%20%26%20Frontend-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Focus badge" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Collaboration-0EA5E9?style=for-the-badge&logo=zapier&logoColor=white" alt="Status badge" />
-</p>
+# I build the parts<br>that make software work.
 
-<p align="center">
-  <a href="https://github.com/atharvaworkx">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=atharvaworkx&theme=github_dark" alt="Profile summary" />
-  </a>
-</p>
+APIs, asynchronous workflows, and developer tools built with<br>
+enough product sense to survive contact with real users.
 
-<table align="center">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>About me</h3>
-      <ul>
-        <li>I build polished digital experiences with a strong eye for detail.</li>
-        <li>I like clean architecture, elegant UI, and practical engineering.</li>
-        <li>I enjoy shipping work that feels both professional and memorable.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>What I’m focused on</h3>
-      <ul>
-        <li>Modern frontend systems</li>
-        <li>Full-stack product builds</li>
-        <li>Design systems and developer experience</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<br>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=atharvaworkx&show_icons=true&hide_border=true&title_color=E2E8F0&text_color=CBD5E1&icon_color=38BDF8&bg_color=0f172a,111827,0f172a" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atharvaworkx&layout=compact&hide_border=true&title_color=E2E8F0&text_color=CBD5E1&bg_color=0f172a,111827,0f172a" alt="Top languages" />
-</p>
+[GitHub](https://github.com/atharvaworkx) · [LinkedIn](https://linkedin.com/in/atharwaw01) · [Email](mailto:atharva.workx@gmail.com)
 
-## Signature Stack
+</div>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,figma,git,github,vscode" alt="Skills" />
-</p>
+<br>
 
-## Featured Work
+<img src="assets/workbench.svg" alt="A request trace moving from an API boundary through a queue and worker into an evidence store" width="100%">
 
-Replace these with your strongest repositories so your profile immediately shows proof of skill.
+<br>
 
-| Project | What it shows | Link |
-| --- | --- | --- |
-| Project One | Product thinking, strong UI, and clean implementation | https://github.com/atharvaworkx/project-one |
-| Project Two | Backend logic, APIs, or automation | https://github.com/atharvaworkx/project-two |
-| Project Three | Design system, dashboard, or showcase build | https://github.com/atharvaworkx/project-three |
+> **A useful constraint:** every visual here describes something I actually build.
 
-## Current Energy
+---
 
-- Building interfaces that look premium and feel effortless.
-- Improving code quality, consistency, and maintainability.
-- Turning profile visitors into collaborators.
+## 02 / What I work on
 
-## Let’s Connect
+I design backend systems where the interesting work happens between the request and
+the result: authentication boundaries, durable jobs, integrations, diagnostics,
+and evidence that lets a person understand what happened.
 
-<p align="center">
-  <a href="https://github.com/atharvaworkx">
-    <img src="https://img.shields.io/badge/GitHub-atharvaworkx-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/your-linkedin/">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+My current focus is **Python backends**, **REST APIs**, **event-driven processing**,
+and careful **AI integrations** that have a deterministic path when the model or
+network is unavailable.
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0EA5E9&height=120&section=footer" alt="Footer wave" />
-</p>
+`Python` `Django` `Django REST Framework` `PostgreSQL` `Redis` `Celery` `Docker` `React` `TypeScript`
+
+---
+
+## 03 / Selected work
+
+### RED THREAD
+
+**A privacy-first OSINT research engine for turning open questions into traceable dossiers.**
+
+Red Thread concurrently ingests public sources, fingerprints source content, extracts
+entities and assertions, then binds generated claims back to evidence. It uses local
+Ollama inference when available and a deterministic synthesis path when it is not.
+
+`Django` `DRF` `React` `TypeScript` `Ollama` `ReportLab`
+
+**The detail worth inspecting:** SSRF-aware ingestion, SHA-256 content auditing,
+citation binding, and local PDF archival are treated as one evidence pipeline.
+
+[Backend repository](https://github.com/atharvaworkx/Red_Thread-Backend) ·
+[Interface repository](https://github.com/atharvaworkx/Red_Thread-UI)
+
+<br>
+
+### POCKETOPS
+
+**A developer tool for collecting safe, useful diagnostics from Django and DRF services.**
+
+PocketOps provides a drop-in exception handler that classifies failures and sends
+diagnostic events asynchronously. The integration deliberately excludes stack traces,
+SQL, credentials, and raw exception text from its reporting payload.
+
+`Django` `DRF` `PostgreSQL` `httpx` `Flutter`
+
+**The detail worth inspecting:** fire-and-forget delivery is isolated from the
+request path, while the safe event schema keeps debugging useful without turning
+an observability service into a data leak.
+
+[Backend repository](https://github.com/atharvaworkx/PocketOps) ·
+[Flutter client](https://github.com/atharvaworkx/PocketOps_App)
+
+<br>
+
+### AYUPILOT
+
+**An Ayurvedic healthcare management product with a React/TypeScript interface and Django REST backend.**
+
+The system explores patient and practice workflows, asynchronous processing, and
+AI-assisted product features. I keep the distinction between shipped flows and
+unfinished integrations visible rather than presenting a concept as a finished product.
+
+`React` `TypeScript` `Django` `DRF`
+
+[Dashboard repository](https://github.com/atharvaworkx/Ayupilot-_Dashboard)
+
+<br>
+
+### RIPPLE
+
+**In progress.**
+
+The public deployment, screenshots, and technical notes will be added after the first
+build is ready. No placeholder interface is pretending to be evidence.
+
+---
+
+## 04 / Working notes
+
+**Reliable APIs** — explicit boundaries, safe failure modes, and integrations that
+do not become the least observable part of a system.
+
+**Asynchronous by design** — move expensive work out of the request path, preserve
+state, and make the hand-off inspectable.
+
+**AI with a floor** — use models where they help, but keep deterministic behavior
+for offline, constrained, or reproducibility-sensitive paths.
+
+---
+
+## 05 / Elsewhere
+
+I am interested in developer tools, backend platforms, intelligent workflows, and
+small products with unusually careful engineering.
+
+[atharvaworkx on GitHub](https://github.com/atharvaworkx) ·
+[atharwaw01 on LinkedIn](https://linkedin.com/in/atharwaw01) ·
+[atharva.workx@gmail.com](mailto:atharva.workx@gmail.com)
+
+<br>
+
+<div align="center">
+<sub>BUILT WITH RESTRAINT · DOCUMENTED WITH EVIDENCE · OPEN TO USEFUL PROBLEMS</sub>
+</div>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Request trace workbench</title>
+  <desc id="desc">A restrained technical diagram showing a request moving through an API boundary, queue, worker, and evidence store.</desc>
+  <rect width="1200" height="330" fill="#101310"/>
+  <g fill="none" stroke="#394139" stroke-width="1">
+    <path d="M0 42H1200M0 96H1200M0 150H1200M0 204H1200M0 258H1200M0 312H1200"/>
+    <path d="M70 0V330M220 0V330M370 0V330M520 0V330M670 0V330M820 0V330M970 0V330M1120 0V330"/>
+  </g>
+  <g fill="#a8b0a1" font-family="monospace" font-size="12" letter-spacing="2">
+    <text x="44" y="32">TRACE / 001</text>
+    <text x="1030" y="32">WORKBENCH</text>
+    <text x="44" y="303">boundary</text>
+    <text x="335" y="303">handoff</text>
+    <text x="640" y="303">execution</text>
+    <text x="950" y="303">evidence</text>
+  </g>
+  <g fill="#101310" stroke="#d6ff55" stroke-width="1.5">
+    <rect x="44" y="118" width="170" height="58"/>
+    <rect x="310" y="118" width="170" height="58"/>
+    <rect x="576" y="118" width="170" height="58"/>
+    <rect x="842" y="118" width="230" height="58"/>
+  </g>
+  <g fill="#f1f3e9" font-family="monospace" font-size="15" letter-spacing="1">
+    <text x="68" y="143">API BOUNDARY</text>
+    <text x="68" y="163" fill="#a8b0a1" font-size="11">validate / authorize</text>
+    <text x="334" y="143">DURABLE QUEUE</text>
+    <text x="334" y="163" fill="#a8b0a1" font-size="11">preserve / retry</text>
+    <text x="600" y="143">WORKER</text>
+    <text x="600" y="163" fill="#a8b0a1" font-size="11">process / infer</text>
+    <text x="866" y="143">EVIDENCE STORE</text>
+    <text x="866" y="163" fill="#a8b0a1" font-size="11">record / explain</text>
+  </g>
+  <g fill="none" stroke="#d6ff55" stroke-width="2">
+    <path d="M214 147H310"/>
+    <path d="M480 147H576"/>
+    <path d="M746 147H842"/>
+  </g>
+  <g fill="#d6ff55">
+    <path d="M302 141l10 6-10 6z"/>
+    <path d="M568 141l10 6-10 6z"/>
+    <path d="M834 141l10 6-10 6z"/>
+    <circle cx="214" cy="147" r="4"/>
+    <circle cx="480" cy="147" r="4"/>
+    <circle cx="746" cy="147" r="4"/>
+  </g>
+  <g fill="#a8b0a1" font-family="monospace" font-size="11">
+    <text x="224" y="134">event</text>
+    <text x="490" y="134">job</text>
+    <text x="756" y="134">result</text>
+  </g>
+</svg>
