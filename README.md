@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Atharva Warankar, software engineer. I build the parts that make software work. An animated request trace moves through an API, queue, worker with an LLM fallback, and evidence store." width="100%">
+<img src="assets/hero.svg" alt="Atharva Warankar, software engineer. Turning Ideas into Systems that Scale. An animated request trace moves through an API, queue, worker with an LLM fallback, and evidence store." width="100%">
 
 <br><br>
 
@@ -14,9 +14,7 @@
 
 <br>
 
-I design backend systems where the interesting work happens between the request and the result:
-authentication boundaries, durable jobs, integrations, diagnostics, and the evidence that lets a
-person understand what happened.
+Driven by curiosity, built on first principles, and fueled by the pursuit of what's possible. Exploring ideas, engineering solutions, and turning complex challenges into something meaningful.
 
 <br>
 
