@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Atharva Warankar, software engineer. Turning Ideas into Systems that Scale. An animated request trace moves through an API, queue, worker with an LLM fallback, and evidence store." width="100%">
+<img src="assets/hero.svg" alt="Atharva Warankar, software engineer. Turning Ideas into Systems that Scale.. An animated request trace moves through an API, queue, worker with an LLM fallback, and evidence store." width="100%">
 
 <br><br>
 
