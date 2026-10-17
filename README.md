@@ -1,113 +1,83 @@
-<div align="center">
+# Hi, I'm Atharva
 
-```
-BACKEND SYSTEMS · EVENT-DRIVEN · AI INTEGRATIONS
-```
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&pause=1000&color=F8FAFC&center=true&vCenter=true&width=820&lines=Building+clean%2C+creative%2C+high-impact+software;Turning+ideas+into+polished+products;Designing+for+clarity%2C+speed%2C+and+delight" alt="Typing animation" />
+</p>
 
-# I build systems that move, reason, and scale.
+<p align="center">
+  <img src="https://img.shields.io/badge/Developer-AtharvaWorkX-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Developer badge" />
+  <img src="https://img.shields.io/badge/Focus-Product%20%26%20Frontend-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Focus badge" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Collaboration-0EA5E9?style=for-the-badge&logo=zapier&logoColor=white" alt="Status badge" />
+</p>
 
-[Portfolio](https://atharva-warankar-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/atharwaw01) · [Email](mailto:atharva.workx@gmail.com) · [GitHub](https://github.com/atharvaworkx)
+<p align="center">
+  <a href="https://github.com/atharvaworkx">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=atharvaworkx&theme=github_dark" alt="Profile summary" />
+  </a>
+</p>
 
-<img src="https://img.shields.io/badge/●-OPEN%20TO%20COLLABORATION-38BDF8?style=flat-square&labelColor=090B10" alt="Open to collaboration">
-
-</div>
-
-<img src="assets/hero.svg" alt="Animated system architecture: client → API gateway → event bus → workers" width="100%">
-
----
-
-## Selected systems
-
-<table>
-<tr>
-<td width="55%" valign="top">
-
-### Relay
-
-**Agentic Integration Platform**
-
-Event-driven platform connecting Salesforce with enterprise systems. An AI agent dynamically selects tools — customer lookup, order retrieval, case updates — based on workflow state.
-
-`Python` `APIs` `PostgreSQL` `Redis` `AWS` `Docker`
-
-`OAuth` · `RBAC` · `idempotency` · `circuit breaking` · `dead-letter handling`
-
-</td>
-<td width="45%" align="center">
-
-<img src="assets/relay-flow.svg" alt="Relay: Salesforce → Gateway → AI Agent → Enterprise APIs" width="100%">
-
-</td>
-</tr>
+<table align="center">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>About me</h3>
+      <ul>
+        <li>I build polished digital experiences with a strong eye for detail.</li>
+        <li>I like clean architecture, elegant UI, and practical engineering.</li>
+        <li>I enjoy shipping work that feels both professional and memorable.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>What I’m focused on</h3>
+      <ul>
+        <li>Modern frontend systems</li>
+        <li>Full-stack product builds</li>
+        <li>Design systems and developer experience</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
-<table>
-<tr>
-<td width="45%" align="center">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=atharvaworkx&show_icons=true&hide_border=true&title_color=E2E8F0&text_color=CBD5E1&icon_color=38BDF8&bg_color=0f172a,111827,0f172a" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atharvaworkx&layout=compact&hide_border=true&title_color=E2E8F0&text_color=CBD5E1&bg_color=0f172a,111827,0f172a" alt="Top languages" />
+</p>
 
-<img src="assets/novaai-flow.svg" alt="NovaAI: image → processing → AI inference → report → database" width="100%">
+## Signature Stack
 
-</td>
-<td width="55%" valign="top">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,figma,git,github,vscode" alt="Skills" />
+</p>
 
-### NovaAI
+## Featured Work
 
-**AI Diagnostic Integration Platform**
+Replace these with your strongest repositories so your profile immediately shows proof of skill.
 
-Multimodal inputs → async processing → AI inference → structured reports. Built around asynchronous workloads and event-driven pipelines.
+| Project | What it shows | Link |
+| --- | --- | --- |
+| Project One | Product thinking, strong UI, and clean implementation | https://github.com/atharvaworkx/project-one |
+| Project Two | Backend logic, APIs, or automation | https://github.com/atharvaworkx/project-two |
+| Project Three | Design system, dashboard, or showcase build | https://github.com/atharvaworkx/project-three |
 
-`Django REST` `PostgreSQL` `Celery` `RabbitMQ` `Redis` `Docker`
+## Current Energy
 
-</td>
-</tr>
-</table>
+- Building interfaces that look premium and feel effortless.
+- Improving code quality, consistency, and maintainability.
+- Turning profile visitors into collaborators.
 
----
+## Let’s Connect
 
-## At production scale
+<p align="center">
+  <a href="https://github.com/atharvaworkx">
+    <img src="https://img.shields.io/badge/GitHub-atharvaworkx-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/your-linkedin/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 
-| | |
-|---|---|
-| **500+** concurrent sessions | **7,000+** items processed / day |
-| **30%** shortlisting improvement | **25%** faster data retrieval |
-
----
-
-## Experience
-
-**Atomic Loops** · Backend Engineer Intern · 2025 — 2026
-Distributed media pipelines, AI-driven data workflows, secure service integrations, event-driven processing.
-
-**Sunsys Technologies** · Software Engineer Intern · 2025
-Modular task systems, REST integrations, database workflows, performance optimization.
-
----
-
-## Stack
-
-`Python` `Django` `DRF` `PostgreSQL` `Redis` `RabbitMQ` `Celery` `Docker` `AWS` `React`
-
----
-
-<div align="center">
-
-<img src="assets/architecture.svg" alt="Backend architecture: client → gateway → orchestrator → queue/AI agent → workers → database" width="100%">
-
-</div>
-
----
-
-## Let's build something useful.
-
-If you're working on developer tools, AI infrastructure, backend platforms, or interesting product engineering — I'd be happy to collaborate.
-
-[Email](mailto:atharva.workx@gmail.com) · [LinkedIn](https://linkedin.com/in/atharwaw01) · [Portfolio](https://atharva-warankar-portfolio.vercel.app) · [GitHub](https://github.com/atharvaworkx)
-
-<br>
-
-```
-ATHARVA WARANKAR
-Backend · Distributed Systems · AI
-```
-
-<img src="https://img.shields.io/badge/●-system%20online-22C55E?style=flat-square&labelColor=090B10" alt="System online">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0EA5E9&height=120&section=footer" alt="Footer wave" />
+</p>
