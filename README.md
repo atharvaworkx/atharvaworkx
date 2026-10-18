@@ -4,7 +4,7 @@
 
 <br><br>
 
-[GitHub](https://github.com/atharvaworkx) · [LinkedIn](https://linkedin.com/in/atharwaw01) · [Email](mailto:atharva.workx@gmail.com)
+[GitHub](https://github.com/atharvaworkx) · [LinkedIn](https://linkedin.com/in/atharwaw01) · [Email](mailto:atharva.workx@gmail.com) · [Portfolio](https://portfolio-android-mu.vercel.app/)
 
 <br>
 
