@@ -24,9 +24,15 @@ Driven by curiosity, built on first principles, and fueled by the pursuit of wha
 
 ## Selected work
 
-<a href="https://github.com/atharvaworkx/Red_Thread-Backend"><img src="assets/red-thread.svg" alt="Red Thread: a privacy-first OSINT research engine that binds every claim to hashed evidence." width="100%"></a>
+<a href="https://red-thread-ui.vercel.app/"><img src="assets/red-thread.svg" alt="Red Thread: a privacy-first OSINT research engine that binds every claim to hashed evidence." width="100%"></a>
 
-<sub>[Backend](https://github.com/atharvaworkx/Red_Thread-Backend) · [Interface](https://github.com/atharvaworkx/Red_Thread-UI)</sub>
+<sub>[Backend](https://github.com/atharvaworkx/Red_Thread-Backend) · [Interface](https://github.com/atharvaworkx/Red_Thread-UI) · [Live Demo](https://red-thread-ui.vercel.app/)</sub>
+
+<br>
+
+<a href="https://ripple-ui-chi.vercel.app/"><img src="assets/ripple.svg" alt="Ripple: an intelligent code impact analysis and regression testing platform built to trace PR dependencies and risk." width="100%"></a>
+
+<sub>[Backend](https://github.com/atharvaworkx/Ripple-Backend) · [Interface](https://github.com/atharvaworkx/Ripple-UI) · [Live Demo](https://ripple-ui-chi.vercel.app/)</sub>
 
 <br>
 
@@ -36,14 +42,11 @@ Driven by curiosity, built on first principles, and fueled by the pursuit of wha
 
 <br>
 
-<a href="https://github.com/atharvaworkx/Ayupilot-_Dashboard"><img src="assets/ayupilot.svg" alt="Ayupilot: an Ayurvedic healthcare management product with a React and TypeScript interface and a Django REST backend." width="100%"></a>
+<a href="https://github.com/atharvaworkx/CarePal_Android"><img src="assets/carepal.svg" alt="CarePal: a healthcare management product with a React and TypeScript interface and a Django REST backend." width="100%"></a>
 
-<sub>[Dashboard](https://github.com/atharvaworkx/Ayupilot-_Dashboard)</sub>
-
-<br>
-
-<img src="assets/ripple.svg" alt="Ripple: in progress. Public deployment and screenshots arrive with the first build." width="100%">
+<sub>[CarePal Android](https://github.com/atharvaworkx/CarePal_Android)</sub>
 
 <br>
 
-<img src="assets/status.svg" alt="All systems operational. Open to useful problems. Ripple is building. Inbox is accepting requests." width="100%">
+<img src="assets/status.svg" alt="All systems operational. Open to useful problems. Ripple is operational. Inbox is accepting requests." width="100%">
+

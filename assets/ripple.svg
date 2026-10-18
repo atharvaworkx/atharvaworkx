@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" role="img" aria-labelledby="t d">
+<title id="t">Ripple</title><desc id="d">Interactive dependency graph and impact analysis tracing PR diffs to downstream regression risks.</desc>
+<rect width="1000" height="310" rx="14" fill="#0D0F14"/>
+<rect x=".5" y=".5" width="999" height="309" rx="14" fill="none" stroke="#262C3B"/>
+<text x="40" y="74" fill="#EDEAE0" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="700" text-anchor="start" letter-spacing="-.6">Ripple</text>
+<text x="40" y="110" fill="#8D96A8" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start" >An intelligent code impact analysis engine that</text>
+<text x="40" y="132" fill="#8D96A8" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start" >traces dependencies across pull requests to reveal</text>
+<text x="40" y="154" fill="#8D96A8" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" text-anchor="start" >downstream regression risks before production.</text>
+<rect x="40" y="198" width="3" height="42" fill="#38BDF8"/>
+<text x="54" y="212" fill="#D8DBE4" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" text-anchor="start" >AST dependency tracing, blast-radius graphs, and</text>
+<text x="54" y="232" fill="#D8DBE4" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" text-anchor="start" >targeted test recommendations: one review pipeline.</text>
+<text x="40" y="286" fill="#8D96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" >Django · DRF · React · TypeScript · Vite · httpx</text>
+<text x="470" y="40" fill="#8D96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" text-anchor="start" >code impact analysis · pr #42</text>
+<rect x="470" y="54" width="160" height="96" rx="6" fill="#141823" stroke="#262C3B"/>
+<circle cx="488" cy="74" r="4" fill="#38BDF8"/>
+<text x="500" y="78" fill="#EDEAE0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" >git diff · PR</text>
+<text x="488" y="100" fill="#8D96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" text-anchor="start" >modified:</text>
+<text x="488" y="118" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" text-anchor="start" >auth.py:verify</text>
+<text x="488" y="136" fill="#8D96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="400" text-anchor="start" >+14 lines / -3 lines</text>
+<path d="M630 102 C660 102 660 66 690 66" fill="none" stroke="#262C3B" stroke-dasharray="3 4"/>
+<path d="M630 102 C660 102 660 66 690 66" fill="none" stroke="#FF4D5E" stroke-width="2" stroke-linecap="round" pathLength="1" stroke-dasharray=".3 1"><animate attributeName="stroke-dashoffset" values="0.3;-1" dur="4s" repeatCount="indefinite" /></path>
+<path d="M630 102 H690" fill="none" stroke="#262C3B" stroke-dasharray="3 4"/>
+<path d="M630 102 H690" fill="none" stroke="#FFC145" stroke-width="2" stroke-linecap="round" pathLength="1" stroke-dasharray=".3 1"><animate attributeName="stroke-dashoffset" values="0.3;-1" dur="4s" repeatCount="indefinite" /></path>
+<path d="M630 102 C660 102 660 138 690 138" fill="none" stroke="#262C3B" stroke-dasharray="3 4"/>
+<rect x="690" y="50" width="170" height="32" rx="6" fill="#141823" stroke="#262C3B"/>
+<text x="704" y="71" fill="#EDEAE0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" >api/checkout</text>
+<rect x="870" y="50" width="90" height="32" rx="4" fill="#FF4D5E" fill-opacity="0.16" stroke="#FF4D5E"/>
+<text x="915" y="71" fill="#FF4D5E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="400" text-anchor="middle" >high risk</text>
+<rect x="690" y="86" width="170" height="32" rx="6" fill="#141823" stroke="#262C3B"/>
+<text x="704" y="107" fill="#EDEAE0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" >billing/worker</text>
+<rect x="870" y="86" width="90" height="32" rx="4" fill="#FFC145" fill-opacity="0.16" stroke="#FFC145"/>
+<text x="915" y="107" fill="#FFC145" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="400" text-anchor="middle" >medium</text>
+<rect x="690" y="122" width="170" height="32" rx="6" fill="#141823" stroke="#262C3B"/>
+<text x="704" y="143" fill="#8D96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" text-anchor="start" >users/profile</text>
+<rect x="870" y="122" width="90" height="32" rx="4" fill="#7CE3A1" fill-opacity="0.16" stroke="#7CE3A1"/>
+<text x="915" y="143" fill="#7CE3A1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="400" text-anchor="middle" >unaffected</text>
+<rect x="470" y="168" width="490" height="82" rx="6" fill="#141823" stroke="#262C3B"/>
+<text x="488" y="192" fill="#7CE3A1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" text-anchor="start" >targeted tests recommended (2)</text>
+<text x="488" y="214" fill="#EDEAE0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="400" text-anchor="start" >● tests/test_checkout.py::test_token_refresh</text>
+<text x="488" y="234" fill="#EDEAE0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="400" text-anchor="start" >● tests/test_billing.py::test_charge_auth</text>
+<text x="715" y="282" fill="#8D96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="400" text-anchor="middle" >traces change blast-radius before code reaches production</text>
+</svg>
